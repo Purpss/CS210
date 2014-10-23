@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-  string message = "Hello, World";
+  string message = "Hello, #{ARGV.first}!";
   cout << message << endl;
 
 
